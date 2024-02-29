@@ -1,0 +1,1 @@
+export {catApi} from './cat'
