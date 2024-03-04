@@ -1,0 +1,9 @@
+.imagesWrapper {
+  display: grid;
+  grid-template-rows: auto 200px;
+  gap: 25px;
+}
+
+.imagesWrapper > img {
+  margin: 0 auto;
+}
