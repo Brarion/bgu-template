@@ -1,0 +1,1 @@
+export const sqr = (n: number): number => n * n;

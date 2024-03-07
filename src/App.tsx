@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
-import { Images, Main } from './pages';
+import { Images, Main, Counter } from './pages';
 
 const router = createBrowserRouter([
   {
@@ -11,12 +11,16 @@ const router = createBrowserRouter([
     path: "/images",
     element: <Images />,
   },
+  {
+    path: "/counter",
+    element: <Counter />,
+  },
 ]);
 
 function App() {
 
   return (
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
   );
 }
 
